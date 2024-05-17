@@ -1,94 +1,109 @@
-body {background-color: rgb(250, 195, 100);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {background-color: hwb(274 67% 24%); 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
-    background-color: #34495e;
-    padding: 10px 0;
+  background-color: #34495e;
+  padding: 10px 0;
 }
-.welcome{
-    animation-name: changecolor;
-    animation-duration: 5s ;
+.welcome {
+  animation-name: changecolor;
+  animation-duration: 5s;
 }
-@keyframes changecolor{
-    20%{ color: blue;
-
-    }
-    25{color: green;}
-    30%{color: yellow}
-    25{
-color: red;
-    }
+@keyframes changecolor {
+  20% {
+    color: blue;
+  }
+  25 {
+    color: green;
+  }
+  30% {
+    color: yellow;
+  }
+  25 {
+    color: red;
+  }
 }
-.mario{margin-top: 500px;
-    border-top: 10px  red solid ;
-    background-color: cadetblue;
-    border-bottom: 10px red solid;
-    position: absolute;
-    animation-name: drive;
-    animation-duration: 7s;
-    animation-fill-mode: both;
-    animation-iteration-count: 5;
+.mario {
+  margin-top: 500px;
+  border-top: 10px red solid;
+  background-color: cadetblue;
+  border-bottom: 10px red solid;
+  position: absolute;
+  animation-name: drive;
+  animation-duration: 7s;
+  animation-fill-mode: both;
+  animation-iteration-count: 5;
 }
-@keyframes drive{
-    from{ 
-        transform: translateX(-800px);
-    }
-    to{transform: translateX(2000px);}
+@keyframes drive {
+  from {
+    transform: translateX(-800px);
+  }
+  to {
+    transform: translateX(2000px);
+  }
 }
 nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
-.colorborder{
-    background-color: beige;
+.colorborder {
+  background-color: beige;
 }
 nav ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 main {
-    flex: 1;
-    padding: 20px;
+  flex: 1;
+  padding: 20px;
 }
 
 footer {
-    background-color: #34495e;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
-table, th, td {
-    border: 1px solid #ccc;
+table,
+th,
+td {
+  border: 1px solid #ccc;
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
+th,
+td {
+  padding: 10px;
+  text-align: left;
 }
-.lastP{
-    border: plum solid 10px;
-    width: 500px;
-    text-align:center ;
-    margin-bottom: 350px;
-    margin-left: 500px;
-    color: rgb(11, 21, 1);
-    text-align: justify;
+.lastP {
+  border: plum solid 10px;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 325px;
+  margin-left: 630px;
+  color: rgb(129, 244, 14);
+  text-align: justify;
+}
+.contact{width: 500px;
+    text-align: center;
+    display: contents;
+    
 }

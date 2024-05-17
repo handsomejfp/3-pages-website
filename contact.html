@@ -22,7 +22,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="body">
     <header>
       <nav>
         <ul>
@@ -33,7 +33,7 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="contact">
         <h1>Contact Us</h1>
         <form action="/submit-form" method="post" class="contact-form">
           <label for="name">Name:</label>
@@ -54,7 +54,15 @@
             <option value="monthly">Monthly</option>
             <option value="yearly">Yearly</option>
           </select>
-          <button type="submit">Subscribe</button>
+          <button type="submit">Subscribe</button><br>
+          <label for="interest">what are your interests:</label> 
+    <select name="interest" id="interest"> 
+        <option value="tech">Technologies</option> 
+        <option value="fashion">fashions</option> 
+        <option value="Healths">Healths</option> 
+        <option value="Politics">Politics</option> 
+    </select>
+
         </form>
       </section>
     </main>
